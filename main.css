@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+input{
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box; /* IMP */
+    margin-bottom: 5px;
+    border: 1px solid #5f9341;
+}
+button{
+    color: white;
+    background-color: #5f9341;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+#delete-btn{
+    color: green;
+    background-color: white;
+    border: 1px solid #5f9341;
+}
+/* STYLE THE LIST ACCORDING TO THE DESIGN */
+ul {
+    margin-top: 20px;
+   list-style: none; 
+   padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+li a { /*li a ----> means anchor tag present in li*/
+    color: #5f9341;
+}
